@@ -13,7 +13,7 @@ class Dos(BotPlugin):
                 'ports': {'80/tcp': '8090'},
                 'info': 'Web created at http://localhost:8090'
                 },
-        'jenkins': {'image': 'jenkins:latest',
+        'jenkins': {'image': 'bitnami/jenkins:latest',
                     'ports': {'8080/tcp': '8080', '5000/tcp': '5000'},
                     'info': 'Jenkins created at http://localhost:8080'
                     },
